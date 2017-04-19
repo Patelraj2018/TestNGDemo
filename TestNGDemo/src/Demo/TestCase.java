@@ -13,7 +13,8 @@ public class TestCase {
 	 
 	    @BeforeTest
 	    public void beforeTest() {
-	    	
+	    	System.out.println("Start");
+	    	System.out.println("Stop");
 	    }
 	 
 	    @AfterTest
